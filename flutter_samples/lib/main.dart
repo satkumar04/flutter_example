@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_samples/align_example.dart';
 import 'package:flutter_samples/stack_example.dart';
 
 void main() {
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const StackExample(),
+      home: const AlignExample(),
     );
   }
 }

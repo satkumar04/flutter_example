@@ -41,16 +41,17 @@ class StackExample extends StatelessWidget {
                 ),
               ),
             ),
-           const Positioned(
-            bottom: -24,
-            right: 16,
-            child: CircleAvatar(
-            
-            backgroundColor: Colors.black,
-            radius:  24,
-            child: Icon(Icons.favorite,
-            color: Colors.white,),
-           ))
+            const Positioned(
+                bottom: -24,
+                right: 16,
+                child: CircleAvatar(
+                  backgroundColor: Colors.black,
+                  radius: 24,
+                  child: Icon(
+                    Icons.favorite,
+                    color: Colors.white,
+                  ),
+                ))
           ],
         ),
       ),
